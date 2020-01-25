@@ -4,7 +4,6 @@
 #
 %define		pdir	IO
 %define		pnam	Pipely
-%include	/usr/lib/rpm/macros.perl
 Summary:	IO::Pipely - Portably create pipe() or pipe-like handles, one way or another.
 Name:		perl-IO-Pipely
 Version:	0.005
