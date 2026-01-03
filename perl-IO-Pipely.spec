@@ -6,13 +6,13 @@
 %define		pnam	Pipely
 Summary:	IO::Pipely - Portably create pipe() or pipe-like handles, one way or another.
 Name:		perl-IO-Pipely
-Version:	0.005
+Version:	0.006
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/IO/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	86781d3e2afe5f142f67ce1fed3b9ed9
+Source0:	https://www.cpan.org/modules/by-module/IO/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	64d52842eaba12175a968ab36d846bd5
 URL:		https://metacpan.org/release/IO-Pipely/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
